@@ -98,6 +98,12 @@ sudo mv lldb-vscode-14 lldb-vscode
 ```
 Substituir 14 pelo numero da versão instalada
 
+## Git config
+```
+git config --global user.name "name"
+git config --global user.email "e@e.com"
+```
+
 ## Configurar o GPG Pass
 Gerar chave GPG:
 ```
@@ -148,6 +154,11 @@ cd custom
 # Remover a pasta .git (opcional, se você não precisar do controle de versão)
 rm -rf .git
 cd ~/
+```
+
+## Install python venv package
+```
+sudo apt install python3.10-venv
 ```
 
 ## Dentro do Neovim: Instalar Plugins Adicionais
