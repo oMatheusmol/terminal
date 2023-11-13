@@ -118,6 +118,10 @@ Inicializar um repositório Git para o GPG Pass e insere uma senha no GPG Pass
 pass git init
 pass insert api/chatgpt
 ```
+Para Decriptar a chave
+```
+pass show api/chatgpt >> /dev/null
+```
 
 ## Configurar o Nvchad (Configuração do Neovim)
 ```
