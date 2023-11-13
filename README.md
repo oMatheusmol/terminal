@@ -159,8 +159,11 @@ vim
 ```
 :MasonInstall
 ```
+### Instalar python tree
+```
+:TSInstall python
+```
 ###Configurar o Copilot
-Dentro do NeoVim, execute:
 ```
 :Copilot setup
 ```
