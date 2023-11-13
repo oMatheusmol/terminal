@@ -94,7 +94,7 @@ which lldb-vscode
 Caso não apareca nada certifique-se de renomear para lldb-vscode
 ```
 /usr/bin
-mv lldb-vscode-14 lldb-vscode
+sudo mv lldb-vscode-14 lldb-vscode
 ```
 Substituir 14 pelo numero da versão instalada
 
