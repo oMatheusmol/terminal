@@ -60,13 +60,6 @@ cd ..
 rm -rf neovim
 ```
 
-### No node é preciso installar @types/node e criar o arquivo eslintrc
-
-```
-npm install --save-dev @types/node
-npm init @eslint/config
-```
-
 ## Configurar o NVM (Node Version Manager)
 ```
 # Instalar NVM
@@ -78,6 +71,13 @@ nvm install node
 nvm alias default node
 npm install -g typescript
 npm install -g ts-node
+```
+
+### No node é preciso installar @types/node e criar o arquivo eslintrc
+
+```
+npm install --save-dev @types/node
+npm init @eslint/config
 ```
 
 ## Configurar o Rust
