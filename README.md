@@ -80,6 +80,16 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 export PATH="$HOME/.cargo/bin:$PATH"
 source $HOME/.cargo/env
 ```
+### Conferir se o lldb-vscode esta installado com este nome
+```
+which lldb-vscode
+```
+Caso não apareca nada certifique-se de renomear para lldb-vscode
+```
+/usr/bin
+mv lldb-vscode-14 lldb-vscode
+```
+Substituir 14 pelo numero da versão instalada
 
 ## Configurar o GPG Pass
 Gerar chave GPG:
