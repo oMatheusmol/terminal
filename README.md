@@ -60,6 +60,13 @@ cd ..
 rm -rf neovim
 ```
 
+### No node é preciso installar @types/node e criar o arquivo eslintrc
+
+```
+npm install --save-dev @types/node
+npm init @eslint/config
+```
+
 ## Configurar o NVM (Node Version Manager)
 ```
 # Instalar NVM
