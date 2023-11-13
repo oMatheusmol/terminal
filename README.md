@@ -159,9 +159,7 @@ cd ~/
 ```
 ### (Opcional) Remover a pasta .git
 ```
-cd ~/.config/nvim/lua/custom
-rm -rf .git
-cd ~/
+rm -rf ~/.config/nvim/lua/custom/.git
 ```
 
 ## Install python venv package
