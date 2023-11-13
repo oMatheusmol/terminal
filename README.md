@@ -155,7 +155,11 @@ rm -rf custom
 # Clonar o repositório nvchad
 git clone https://github.com/oMatheusmol/nvchad.git custom
 cd custom
-# Remover a pasta .git (opcional, se você não precisar do controle de versão)
+cd ~/
+```
+### (Opcional) Remover a pasta .git
+```
+cd ~/.config/nvim/lua/custom
 rm -rf .git
 cd ~/
 ```
