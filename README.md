@@ -81,6 +81,21 @@ export PATH="$HOME/.cargo/bin:$PATH"
 source $HOME/.cargo/env
 ```
 
+## Configurar o GPG Pass
+Gerar chave GPG:
+```
+gpg --gen-key
+```
+Inicializar o GPG Pass com {UID} substituído pelo ID do usuário:
+```
+pass init {UID}
+```
+Inicializar um repositório Git para o GPG Pass e insere uma senha no GPG Pass
+```
+pass git init
+pass insert api/chatgpt
+```
+
 ## Configurar o Nvchad (Configuração do Neovim)
 ```
 mv ~/.config/nvim ~/.config/nvim.backup # Apenas se necessário, se você já tinha uma configuração anterior
@@ -123,7 +138,15 @@ Abra o Neovim:
 ```
 vim
 ```
-Execute os seguintes comandos para instalar plugins adicionais:
+###Execute os seguintes comandos para instalar plugins adicionais:
 ```
 :MasonInstall
 ```
+###Configurar o Copilot
+Dentro do NeoVim, execute:
+```
+:Copilot setup
+```
+
+
+
