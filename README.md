@@ -5,7 +5,7 @@ Este guia fornece instruções passo a passo para configurar um ambiente de dese
 ## Instalar Dependências Básicas
 ```
 sudo apt-get update
-sudo apt-get install automake libevent-dev libncurses-dev build-essential pkg-config bison ninja-build gettext libtool libtool-bin autoconf automake cmake lldb g++ pkg-config unzip zsh
+sudo apt-get install automake libevent-dev libncurses-dev build-essential pkg-config bison ninja-build gettext libtool libtool-bin autoconf automake cmake lldb g++ pkg-config unzip zshv pass
 ```
 ## Configurar o Tmux
 ```
