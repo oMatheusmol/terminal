@@ -6,6 +6,7 @@ Este guia fornece instruções passo a passo para configurar um ambiente de dese
 ```
 sudo apt-get update
 sudo apt-get install automake libevent-dev libncurses-dev build-essential pkg-config bison ninja-build gettext libtool libtool-bin autoconf automake cmake lldb g++ pkg-config unzip zsh pass bat fzf zoxide mc
+curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 ```
 ## Configurar o Tmux
 ```
@@ -39,6 +40,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ## Instalar Plugins para Zsh
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
 
