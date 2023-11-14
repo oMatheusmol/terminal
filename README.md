@@ -5,7 +5,9 @@ Este guia fornece instruções passo a passo para configurar um ambiente de dese
 ## Instalar Dependências Básicas
 ```
 sudo apt-get update
-sudo apt-get install automake libevent-dev libncurses-dev build-essential pkg-config bison ninja-build gettext libtool libtool-bin autoconf automake cmake lldb g++ pkg-config unzip zsh pass bat fzf zoxide mc
+sudo apt-get install automake libevent-dev libncurses-dev build-essential pkg-config bison ninja-build gettext libtool libtool-bin autoconf automake cmake lldb g++ pkg-config unzip zsh pass bat mc
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
 ```
 ## Configurar o Tmux
