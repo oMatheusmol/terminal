@@ -26,9 +26,8 @@ cd ..
 rm -rf tmux
 
 # Configurar o arquivo .tmux.conf
-git clone https://github.com/oMatheusmol/tmux
-mv tmux/tmux.conf ~/.tmux.conf
-rm -rf tmux
+git clone https://github.com/oMatheusmol/tmux ~/.tmux_bind
+ln -s ~/.tmux_bind/tmux.conf ~/.tmux.conf
 ```
 
 ## Configurar o Zsh
@@ -50,8 +49,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k
 
 git clone https://github.com/oMatheusmol/zsh
-mv zsh/.zshrc ~/.zshrc
-rm -rf zsh
+git clone https://github.com/oMatheusmol/zsh ~/.zshrc_bind
+ln -s ~/.zhrc_bind/.zshrc ~/.zshrc
 source ~/.zshrc
 ```
 
