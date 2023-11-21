@@ -6,9 +6,14 @@ Este guia fornece instruções passo a passo para configurar um ambiente de dese
 ```
 sudo apt-get update
 sudo apt-get install automake libevent-dev libncurses-dev build-essential pkg-config bison ninja-build gettext libtool libtool-bin autoconf automake cmake lldb g++ pkg-config unzip zsh pass bat mc
+# fzf
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+# zoxide
 curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash
+# ripgrep
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
+sudo dpkg -i ripgrep_13.0.0_amd64.deb
 ```
 ## Configurar o Tmux
 ```
@@ -28,6 +33,9 @@ rm -rf tmux
 # Configurar o arquivo .tmux.conf
 git clone https://github.com/oMatheusmol/tmux ~/.tmux_bind
 ln -s ~/.tmux_bind/tmux.conf ~/.tmux.conf
+
+# Install Tmuxifier
+git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
 ```
 
 ## Configurar o Zsh
